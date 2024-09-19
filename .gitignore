@@ -1,4 +1,3 @@
-
 # Miscellaneous
 *.class
 *.log
@@ -10,21 +9,10 @@
 .history
 .svn/
 migrate_working_dir/
+venv/
+firebase.json
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# Flutter specific
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -32,13 +20,107 @@ migrate_working_dir/
 .pub/
 /build/
 
+# iOS related
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/ServiceDefinitions.json
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android related
+/android/.gradle/
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+/android/app/build/
+/android/build/
+**/*.jks
+**/key.properties
+
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode related
+.vscode/
+
+# macOS related
+macos/Flutter/ephemeral/
+/macos/Pods/
+/macos/Flutter/Flutter.framework
+macos/.symlinks/
+/macos/build/
+/Backend/
+script.py
+req.txt
+# Web related
+web/.dart_tool/
+web/.packages
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+web/.build/
+
+# Windows related
+/windows/flutter/ephemeral/
+windows/.dart_tool/
+windows/build/
+
+# Linux related
+/linux/flutter/ephemeral/
+linux/.dart_tool/
+linux/build/
+
+# Coverage folder
+coverage/
+
+# JetBrains Rider related
+.idea/
+.idea_modules/
+.idea/*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/
+.idea/gradle.xml
+.idea/.name
+.idea/caches/
+.idea/codeStyles/
+.idea/dictionaries/
+.idea/keymaps/
+.idea/modules.xml
+.idea/scopes/
+.idea/target/
+.idea/vcs.xml
+
+# Gradle related
+.gradle/
+*/gradle-wrapper.properties
+
+# Firebase/Google related
+google-services.json
+firebase-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Lock files
+*.lock
+
+# Local environment settings
+.env
+*.env
+
+# CI/CD files
+.dart_tool/
